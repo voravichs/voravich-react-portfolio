@@ -1,5 +1,6 @@
 import PortfolioContainer from './components/PortfolioContainer';
 import { Helmet } from 'react-helmet';
+import './index.css'
 
 export default function App() {
   return (

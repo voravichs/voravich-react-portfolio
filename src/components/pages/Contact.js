@@ -53,10 +53,10 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className='text-5xl mb-12'>Contact</h1>
+      <h1 className='text-5xl mb-12 text-yellow-100 text-center'>Contact</h1>
       <form className="flex flex-col bg-yellow-50 p-8">
         <div className='mb-8'>
-          <p className='text-emerald-900 text-2xl mb-4'> Name </p>
+          <p className='text-emerald-800 text-3xl mb-4'> Name </p>
           <input
             className='w-1/2 p-2 ring'
             value={name}
@@ -68,7 +68,7 @@ export default function Contact() {
 
         </div>
         <div className='mb-8'>
-          <p className='text-emerald-900 text-2xl mb-4'> Email </p>
+          <p className='text-emerald-800 text-3xl mb-4'> Email </p>
           <input
             className='w-1/2 p-2 ring-2 mb-2'
             value={email}
@@ -85,7 +85,7 @@ export default function Contact() {
         </div>
 
         <div className='mb-8'>
-          <p className='text-emerald-900 text-2xl mb-4'> Message </p>
+          <p className='text-emerald-800 text-3xl mb-4'> Message </p>
           <textarea
             className='w-full p-2 ring'
             rows={5}
@@ -102,8 +102,6 @@ export default function Contact() {
             </div>
           )}
         </div>
-
-
 
         <button className='block w-1/2 text-yellow-100 text-2xl bg-emerald-600 hover:bg-emerald-700 transition-all ring-2 rounded-lg ring-emerald-500 p-4 mx-auto' type="button" onClick={handleFormSubmit}>Submit</button>
       </form>

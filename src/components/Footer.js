@@ -5,7 +5,7 @@ import TwitterLogo from "../images/2021 Twitter logo - blue.png"
 
 export default function Footer() {
   return (
-    <div className='flex justify-evenly mt-16'>
+    <div className='flex justify-evenly mt-16 bg-emerald-400 py-12 drop-shadow-2xl'>
       <a href='https://github.com/voravichs'>
         <img className='w-24 h-24 contrast-50 hover:contrast-100' src={GitHubLogo} alt="github logo" />
       </a>

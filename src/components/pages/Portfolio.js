@@ -55,7 +55,7 @@ const Portfolio = () => {
 
   return (
     <div>
-      <h1 className='text-5xl mb-12'>Portfolio</h1>
+      <h1 className='text-5xl mb-12 text-yellow-100 text-center'>Portfolio</h1>
       <ul className="grid grid-rows-6 lg:grid-rows-3 grid-cols-1 lg:grid-cols-2 gap-16">
         {projects.map((project) =>
           <Project key={project.id} name={project.name} link={project.deployLink} gitLink={project.gitLink} image={project.image} />
