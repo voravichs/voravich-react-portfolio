@@ -1,12 +1,13 @@
-import './App.css';
-import BucketList from './components/BucketList';
+import PortfolioContainer from './components/PortfolioContainer';
+import { Helmet } from 'react-helmet';
 
-function App() {
+export default function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div>
+      <Helmet>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </Helmet>
+      <PortfolioContainer />
     </div>
-  );
+  )
 }
-
-export default App;
