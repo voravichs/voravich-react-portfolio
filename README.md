@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# professional-portfolio [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project is the start of a professional portfolio deployed on GitHub. It is a demonstration of how a React front-end app will function. 
 
-In the project directory, you can run:
+## Usage Instructions
 
-### `npm start`
+A user will start on the About Me page. On the header, there is a navigation bar that includes a portfolio, contact, and resume section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The portfolio consists of 6 select projects to show in my portfolio. Hovering over these projects will bring up its title and a Github logo. Clicking anywhere in the box except the log will bring up the deployed app. Clicking on the Github logo will take a user to the project's github repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The contact section is a form that takes a name, email, and message. As this project is fully front-end, the submission currently doesn't work, but this will be addressed in the future.
 
-### `npm test`
+The resume section includes a link to a google drive that contains my CV. This page also contains a list of my proficiencies and skills.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+At the footer, there are persistent links to my github profile, linkedin profile, and twitter.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* About Me Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![about me page](./src/images/screen1.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Portfolio Page
 
-### `npm run eject`
+![portfolio page](./src/images/screen2.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Contact Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![contact page](./src/images/screen3.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Resume Page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![resume page](./src/images/screen4.PNG)
 
-## Learn More
+## License 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+"Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights."
 
-### Code Splitting
+Read more about this license at: https://choosealicense.com/licenses/gpl-3.0/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Github Repository Link
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub Repository: https://github.com/voravichs/voravich-react-portfolio
+ 
+Deployed App: https://voravichs.github.io/voravich-react-portfolio/
