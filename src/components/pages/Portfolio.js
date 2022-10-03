@@ -1,39 +1,39 @@
 import Project from '../Project';
 import MoodyGamer from '../../images/moody-gamer.png'
 import CampaignManager from '../../images/campaign-manager.PNG'
-import CodeQuiz from '../../images/code-quiz.png'
 import NoteTaker from '../../images/note-taker.PNG'
 import WorkDay from '../../images/work-day.png'
 import WeatherDash from '../../images/weather-dash.PNG'
+import PixelBattle from '../../images/pixel-battle.png'
 
 const projects = [
   {
     id: 1,
+    name: "Pixel Battle",
+    deployLink: "https://pixel-battle-v.herokuapp.com/",
+    gitLink: "https://github.com/voravichs/pixel-battle",
+    image: PixelBattle
+  },
+  {
+    id: 2,
     name: "Moody Gamer",
     deployLink: "https://voravichs.github.io/moody-gamer/",
     gitLink: "https://github.com/voravichs/moody-gamer",
     image: MoodyGamer
   },
   {
-    id: 2,
+    id: 3,
     name: "Campaign Manager",
     deployLink: "https://vast-temple-92235.herokuapp.com/",
     gitLink: "https://github.com/voravichs/campaign-manager",
     image: CampaignManager
   },
   {
-    id: 3,
+    id: 4,
     name: "Note Taker",
     deployLink: "https://note-taker-vs.herokuapp.com/",
     gitLink: "https://github.com/voravichs/note-taker",
     image: NoteTaker
-  },
-  {
-    id: 4,
-    name: "Code Quiz",
-    deployLink: "https://voravichs.github.io/code-quiz",
-    gitLink: "https://github.com/voravichs/code-quiz",
-    image: CodeQuiz
   },
   {
     id: 5,
